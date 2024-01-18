@@ -1,0 +1,34 @@
+.addTaskBar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 100%;
+
+  button {
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 8px;
+    border: 0;
+    background: var(--blue-700);
+
+    cursor: pointer;
+
+    color: var(--gray-100);
+
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 140%; /* 1.225rem */
+
+    transition: background-color 0.1s;
+
+    &:hover {
+      background: var(--blue-500);
+    }
+  }
+}

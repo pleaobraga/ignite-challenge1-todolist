@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 2rem;
+
+  .content {
+    width: 46rem;
+
+    position: relative;
+    top: -27px;
+
+    .counters {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      margin-top: 4rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .main {
+    .content {
+      width: 100%;
+    }
+  }
+}
