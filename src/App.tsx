@@ -21,7 +21,7 @@ function App() {
       isDone: false,
     }
 
-    setTaskList([...taskList, task])
+    setTaskList([task, ...taskList])
     setCreatedTasks((state) => state + 1)
     setNewTask('')
   }
