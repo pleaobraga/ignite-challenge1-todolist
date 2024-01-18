@@ -1,5 +1,6 @@
 import { PlusCircle } from '@phosphor-icons/react'
-import { InputField } from '../InputField/InputField'
+
+import { InputField } from '../InputField'
 
 import styles from './AddTaskBar.module.scss'
 
